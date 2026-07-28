@@ -16,7 +16,7 @@ Instructor Seno <br>
  Which database? SQLite <br>
  run npm install? No <br>
  cd blog-ai > Open VS code with code . > Navigate to http://blog-ai.test/ai-form > We want to create 1 new folder and 3 new files. 
- 1. create a folder under app called "Services" with mkdir Services, because your making (app/Services/AiContentService.php) <br>
+ 1. create a folder under app called "Services" with mkdir Services, because you're making (app/Services/AiContentService.php) <br>
  2. create AiContentController.php inside of app/Http/Controllers, ( app/Http/Controllers/AiContentController.php ) <br>
  3. create ai.form.blade in views ( resources/views/ai_form.blade.php ) <br>
  
