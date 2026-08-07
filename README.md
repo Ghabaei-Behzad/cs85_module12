@@ -280,14 +280,14 @@ class DraftGenerationTest extends TestCase
     }
 }
 ```
-> Herd\blog-ai>php artisan test > <br>
-this will return: <br>
+
+- > Herd\blog-ai>php artisan test  (this will return the following) <br>
 PASS  Tests\Feature\DraftGenerationTest <br>
 generate returns the services output   <br>                                                               title must be at least five characters  <br>
-> also we could check to see which key is used, with these commands,                                       1.  \Herd\blog-ai>php artisan tinker <br>
-2. > config('services.openai.key'); <br>
+- > also we could check to see which key is used, with these commands, <br>                                a. \Herd\blog-ai>php artisan tinker <br>
+b. > config('services.openai.key'); <br>
 = "sk-proj-xxx_tells_your_key_xxx <br>
-3. > exit <br>
+c. > exit <br>
 INFO  Goodbye.
 
 
