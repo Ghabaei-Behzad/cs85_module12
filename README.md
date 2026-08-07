@@ -12,7 +12,7 @@ Instructor Seno <br>
  Starter Kit? None <br>
  Testing framework? Pest <br>
  Laravel Boost AI? No <br>
- Installing...
+ Installing... <br>
  Which database? SQLite <br>
  run npm install? No <br>
  cd blog-ai > Open VS code with code . > Navigate to http://blog-ai.test/ai-form > We want to create 1 new folder and 3 new files. 
@@ -283,11 +283,11 @@ class DraftGenerationTest extends TestCase
 > Herd\blog-ai>php artisan test > <br>
 this will return: <br>
 PASS  Tests\Feature\DraftGenerationTest <br>
-generate returns the services output   <br>                                                                title must be at least five characters  <br>
-> also we could check to see which key is used, with command,                                              \Herd\blog-ai>php artisan tinker
-> config('services.openai.key');
-= "sk-proj-xxx_tells_your_key_xxx
-> exit
+generate returns the services output   <br>                                                               title must be at least five characters  <br>
+> also we could check to see which key is used, with these commands,                                       1.  \Herd\blog-ai>php artisan tinker <br>
+2. > config('services.openai.key'); <br>
+= "sk-proj-xxx_tells_your_key_xxx <br>
+3. > exit <br>
 INFO  Goodbye.
 
 
